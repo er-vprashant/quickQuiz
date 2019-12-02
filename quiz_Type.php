@@ -76,11 +76,9 @@
                   <a href="index.html" class="nav-link text-left">Home</a>
                 </li>
                 <li>
-                  <a href="category.html" class="nav-link text-left">Category</a>
+                  <a href="category.php" class="nav-link text-left">Category</a>
                 </li>
-                <li>
-                  <a href="leaderBoard.html" class="nav-link text-left">Leader Board</a>
-                </li>
+               
                 <li>
                     <a href="contact.html" class="nav-link text-left">Contact</a>
                   </li>
@@ -104,14 +102,15 @@
 
     </header>
 
-
+    <?php
+        $cat = $_GET['cat'];
+    ?>
 
     <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('images/bg_1.jpg')">
         <div class="container">
           <div class="row align-items-end">
             <div class="col-lg-7">
-              <h2 class="mb-0">How To Create Mobile Apps Using Ionic</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              <h2 class="mb-0"><?php echo $cat ?></h2>
             </div>
           </div>
         </div>
@@ -122,7 +121,7 @@
       <div class="container">
         <a href="index.html">Home</a>
         <span class="mx-3 icon-keyboard_arrow_right"></span>
-        <a href="category.html">Category</a>
+        <a href="category.php">Category</a>
         <span class="mx-3 icon-keyboard_arrow_right"></span>
         <span class="current">Start</span>
       </div>
@@ -160,25 +159,23 @@
 
     <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-              <span class="icon flaticon-mortarboard"></span>
-              <h3>Our Philosphy</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-              <span class="icon flaticon-school-material"></span>
-              <h3>Academics Principle</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-                Dolore, amet reprehenderit.</p>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-              <span class="icon flaticon-library"></span>
-              <h3>Key of Success</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-                Dolore, amet reprehenderit.</p>
-            </div>
+           <div class="row">
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <span class="icon flaticon-mortarboard"></span>
+            <h3>Our Philosphy</h3>
+            <p>Satisfaction of our users is one and only goal</p>
           </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <span class="icon flaticon-school-material"></span>
+            <h3>Academics Principle</h3>
+            <p>QuickQuiz also ties up with academic instituitions to help students.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <span class="icon flaticon-library"></span>
+            <h3>Key of Success</h3>
+            <p>We are proud of our Hardwork and your Love. </p>
+          </div>
+        </div>
         </div>
       </div>
 
