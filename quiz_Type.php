@@ -65,7 +65,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div class="site-logo">
-            <a href="index.html" class="d-block">
+            <a href="index.php" class="d-block">
               <img src="images/logo.jpg" alt="Image" class="img-fluid">
             </a>
           </div>
@@ -73,7 +73,7 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li class="active">
-                  <a href="index.html" class="nav-link text-left">Home</a>
+                  <a href="index.php" class="nav-link text-left">Home</a>
                 </li>
                 <li>
                   <a href="category.php" class="nav-link text-left">Category</a>
@@ -119,7 +119,7 @@
 
     <div class="custom-breadcrumns border-bottom">
       <div class="container">
-        <a href="index.html">Home</a>
+        <a href="index.php">Home</a>
         <span class="mx-3 icon-keyboard_arrow_right"></span>
         <a href="category.php">Category</a>
         <span class="mx-3 icon-keyboard_arrow_right"></span>
