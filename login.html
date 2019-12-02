@@ -76,10 +76,10 @@
                   <a href="index.html" class="nav-link text-left">Home</a>
                 </li>
                 <li>
-                  <a href="courses.html" class="nav-link text-left">Category</a>
+                  <a href="category.html" class="nav-link text-left">Category</a>
                 </li>
                 <li>
-                  <a href="admissions.html" class="nav-link text-left">Leader Board</a>
+                  <a href="leaderBoard.html" class="nav-link text-left">Leader Board</a>
                 </li>
                 <li>
                     <a href="contact.html" class="nav-link text-left">Contact</a>
@@ -132,13 +132,16 @@
             <div class="row justify-content-center">
                 <div class="col-md-5">
                     <div class="row">
+                      <form class="" action="#" method="post" onsubmit="validate()">
                         <div class="col-md-12 form-group">
                             <label for="username">Username</label>
                             <input type="text" id="username" class="form-control form-control-lg">
+                            <p class="nameErr"></p>
                         </div>
                         <div class="col-md-12 form-group">
                             <label for="pword">Password</label>
                             <input type="text" id="pword" class="form-control form-control-lg">
+                            <p class="passErr"></p>
                         </div>
                     </div>
                     <div class="row">
@@ -146,6 +149,7 @@
                             <input type="submit" value="Log In" class="btn btn-primary btn-lg px-5">
                         </div>
                     </div>
+                  </form>
                 </div>
             </div>
         </div>
@@ -187,6 +191,7 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="js/jquery.mb.YTPlayer.min.js"></script>
+  <script type="text/javascript" src="js/login.js"></script>
 
 
 
