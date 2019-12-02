@@ -65,7 +65,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div class="site-logo">
-            <a href="index.html" class="d-block">
+            <a href="index.php" class="d-block">
               <img src="images/logo.jpg" alt="Image" class="img-fluid">
             </a>
           </div>
@@ -73,14 +73,12 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li class="active">
-                  <a href="index.html" class="nav-link text-left">Home</a>
+                  <a href="index.php" class="nav-link text-left">Home</a>
                 </li>
                 <li>
-                  <a href="category.html" class="nav-link text-left">Category</a>
+                  <a href="category.php" class="nav-link text-left">Category</a>
                 </li>
-                <li>
-                  <a href="leaderBoard.html" class="nav-link text-left">Leader Board</a>
-                </li>
+               
                 <li>
                     <a href="contact.html" class="nav-link text-left">Contact</a>
                   </li>
@@ -202,13 +200,13 @@
 
                     <div class="course-1-item">
                         <figure class="thumnail">
-                        <a href="quiz_Type.html"><img src="images/course_1.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="quiz_Type.php?cat=<?php echo 'General Knowledge' ?>"><img src="images/course_1.jpg" alt="Image" class="img-fluid"></a>
                         <div class="category"><h3>General Knowledge</h3></div>
                         </figure>
                         <div class="course-1-content pb-4">
                         <h2>A know-it-all?</h2>
                         <p class="desc mb-4">General knowledge is information that has been accumulated over time through various mediums.</p>
-                        <p><a href="quiz_Type.html" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
+                        <p><a href="quiz_Type.php?cat=<?php echo 'General Knowledge' ?>" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
                         </div>
 
                 </div>
@@ -216,14 +214,14 @@
 
                     <div class="course-1-item">
                         <figure class="thumnail">
-                                <a href="quiz_Type.html"><img src="images/course_2.jpg" alt="Image" class="img-fluid"></a>
+                                <a href="quiz_Type.php?cat=<?php echo 'Books' ?>"><img src="images/course_2.jpg" alt="Image" class="img-fluid"></a>
                         <div class="category"><h3>Books</h3></div>
                         </figure>
                         <div class="course-1-content pb-4">
                         <h2>Bookworm?</h2>
 
                         <p class="desc mb-4">If you only read the books that everyone else is reading, you can only think what everyone else is thinking.</p>
-                        <p><a href="quiz_Type.html" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
+                        <p><a href="quiz_Type.php?cat=<?php echo 'Books' ?>" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
                         </div>
 
                 </div>
@@ -231,7 +229,7 @@
 
                     <div class="course-1-item">
                         <figure class="thumnail">
-                                <a href="quiz_Type.html"><img src="images/course_3.jpg" alt="Image" class="img-fluid"></a>
+                                <a href="quiz_Type.php?cat=<?php echo 'Film' ?>"><img src="images/course_3.jpg" alt="Image" class="img-fluid"></a>
 
                         <div class="category"><h3>Film</h3></div>
                         </figure>
@@ -239,7 +237,7 @@
                         <h2>MovieBluff?</h2>
 
                         <p class="desc mb-4">Cinema is not only about making people dream. It's about changing things and making people think.</p>
-                        <p><a href="quiz_Type.html" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
+                        <p><a href="quiz_Type.php?cat=<?php echo 'Film' ?>" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
                         </div>
 
                 </div>
@@ -247,20 +245,20 @@
 
                     <div class="course-1-item">
                         <figure class="thumnail">
-                                <a href="quiz_Type.html"><img src="images/course_4.jpg" alt="Image" class="img-fluid"></a>
+                                <a href="quiz_Type.php?cat=<?php echo 'Music' ?>"><img src="images/course_4.jpg" alt="Image" class="img-fluid"></a>
                         <div class="category"><h3>Music</h3></div>
                         </figure>
                         <div class="course-1-content pb-4">
                         <h2>Melophile?</h2>
                         <p class="desc mb-4">Music gives a soul to the universe, wings to the mind, flight to the imagination and life to everything.</p>
-                        <p><a href="quiz_Type.html" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
+                        <p><a href="quiz_Type.php?cat=<?php echo 'Music' ?>" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
                         </div>
 
                 </div>
 
                     <div class="course-1-item">
                         <figure class="thumnail">
-                                <a href="quiz_Type.html"><img src="images/course_5.jpg" alt="Image" class="img-fluid"></a>
+                                <a href="quiz_Type.php?cat=<?php echo 'Threatres' ?>"><img src="images/course_5.jpg" alt="Image" class="img-fluid"></a>
 
                         <div class="category"><h3>Threatres</h3></div>
                         </figure>
@@ -268,7 +266,7 @@
                         <h2>Shakespeare?</h2>
 
                         <p class="desc mb-4">I wish the stage were as narrow as the wire of a tighrope dancer so that no incompetent would dare step upon.</p>
-                        <p><a href="quiz_Type.html" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
+                        <p><a href="quiz_Type.php?cat=<?php echo 'Threatres' ?>" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
                         </div>
 
                 </div>
@@ -276,27 +274,27 @@
 
                     <div class="course-1-item">
                         <figure class="thumnail">
-                                <a href="quiz_Type.html"><img src="images/course_6.jpg" alt="Image" class="img-fluid"></a>
+                                <a href="quiz_Type.php?cat=<?php echo 'Telivision' ?>"><img src="images/course_6.jpg" alt="Image" class="img-fluid"></a>
                         <div class="category"><h3>Telivision</h3></div>
                         </figure>
                         <div class="course-1-content pb-4">
                         <h2>Big Bang!!</h2>
 
                         <p class="desc mb-4">I find television very educating. Every time somebody turns on the set, I go into the other room and read a book.</p>
-                        <p><a href="quiz_Type.html" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
+                        <p><a href="quiz_Type.php?cat=<?php echo 'Telivision' ?>" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
                         </div>
 
                 </div>
 
                     <div class="course-1-item">
                         <figure class="thumnail">
-                        <a href="quiz_Type.html"><img src="images/course_1.jpg" alt="Image" class="img-fluid"></a>
+                        <a href="quiz_Type.php?cat=<?php echo 'Video games' ?>"><img src="images/course_1.jpg" alt="Image" class="img-fluid"></a>
                         <div class="category"><h3>Video games</h3></div>
                         </figure>
                         <div class="course-1-content pb-4">
                         <h2>Fortnite/PUBG</h2>
                         <p class="desc mb-4">Everything is decided here, you cannot comprehend the magnitude, rapture and tragedy of this moment.</p>
-                        <p><a href="quiz_Type.html" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
+                        <p><a href="quiz_Type.php?cat=<?php echo 'Video games' ?>" class="btn btn-primary rounded-0 px-4">Start Quiz</a></p>
                         </div>
                     </div>
                 </div>
